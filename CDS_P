@@ -1,0 +1,19 @@
+@AbapCatalog.viewEnhancementCategory: [#NONE]
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+@EndUserText.label: 'Exercicio CDS'
+@Metadata.ignorePropagatedAnnotations: true
+
+define view entity ZCDS_EXERCICIO
+
+  with parameters
+    nome : ernam
+  as select from mara
+
+
+
+{
+
+  key matnr,
+      ernam
+
+}
